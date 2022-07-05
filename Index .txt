@@ -1,29 +1,18 @@
 
 
+    *** POSITION ***
 
-This chapter teaches you how to set different properties of a hyper link using 
-CSS. You can set the following properties of a hyperlink:
-We will revisit the same properties when we will discuss Pseudo-Classes of CSS.
- The :link signifies unvisited hyperlinks.
- The :visited signifies visited hyperlinks.
- The :hover signifies an element that currently has the user's mouse 
-pointer hovering over it.
- The :active signifies an element on which the user is currently clicking.
-Usually, all these properties are kept in the header part of the HTML document.
-Remember a:hover MUST come after a:link and a:visited in the CSS definition in 
-order to be effective. Also, a:active MUST come after a:hover in the CSS 
-definition as follows:
-<style type="text/css">
-a:link {color: #000000}
-a:visited {color: #006600}
-a:hover {color: #FFCC00}
-a:active {color: #FF00CC}
-</style>
-Now, we will see how to use these properties to give different effects to 
-hyperlinks.
-Set the Color of Links
-The following example demonstrates how to set the link color. Possible values
-could be any color name in any valid format.
-<style type="text/css">
-a:link {color:#000000}
-</style>
+    CSS helps you to position your HTML element. You can put any HTML element at 
+whatever location you like. You can specify whether you want the element 
+positioned relative to its natural position in the page or absolute based on its 
+parent element.
+Now, we will see all the CSS positioning related properties with examples.
+Relative Positioning
+Relative positioning changes the position of the HTML element relative to where 
+it normally appears. So "left:20" adds 20 pixels to the element's LEFT position.
+You can use two values top and left along with the position property to move an 
+HTML element anywhere in an HTML document. 
+ Move Left - Use a negative value for left.
+ Move Right - Use a positive value for left.
+ Move Up - Use a negative value for top.
+ Move Down - Use a positive value for top.
