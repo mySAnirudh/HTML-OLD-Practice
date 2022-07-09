@@ -1,43 +1,28 @@
 
+ 
+     **** EVENTS ****
 
-      **** COOKIES ****
+     JavaScript is meant to add interactivity to your pages. JavaScript does this using a 
+mechanism using events. Events are a part of the Document Object Model (DOM) Level 
+3 and every HTML element contains a set of events that can trigger JavaScript Code.
+An event is an action or occurrence recognized by the software. It can be triggered by a 
+user or the system. Some common examples of events include a user clicking on a button, 
+loading the web page, clicking on a hyperlink and so on. Following are some of the common 
+HTML events. 
+Event Handlers
+On the occurrence of an event, the application executes a set of related tasks. The block 
+of code that achieves this purpose is called the eventhandler. Every HTML element has 
+a set of events associated with it. We can define how the events will be processed in 
+JavaScript by using event handlers. 
+onclick Event Type
+This is the most frequently used event type which occurs when a user clicks the left button 
+of his mouse. You can put your validation, warning, etc. against this event type.
 
-    
-  JavaScript Cookies. A cookie is an amount of information that
-   persists between a server-side and a client-side. A web browser
-    stores this information at the time of browsing. A cookie contains 
-    the information as a string generally 
-  in the form of a name-value pair separated by semi-colons.
 
-  
 
-    Web Browsers and Servers use HTTP protocol to communicate. HTTP is stateless protocol,
-i.e., it doesn’t maintain the client’s data across multiple requests made by the client. This 
-complete request-response cycle between the client and the server is defined as a 
-session. Cookies are the default mechanism used by browsers to store data pertaining to 
-a user’s session.
-HowItWorks?
-Your server sends some data to the visitor's browser in the form of a cookie. The browser 
-may accept the cookie. If it does, it is stored as a plain text record on the visitor's hard 
-drive. Now, when the visitor arrives at another page on your site, the browser sends the 
-same cookie to the server for retrieval. Once retrieved, your server knows/remembers 
-what was stored earlier.
-Cookies are plain text data record of 5 variable-length fields.
- Expires: The date the cookie will expire. If this is blank, the cookie will expire 
-when the visitor quits the browser.
- Domain: The domain name of your site.
- Path: The path to the directory or web page that sets the cookie. This may be 
-blank, if you want to retrieve the cookie from any directory or page.
- Secure: If this field contains the word "secure", then the cookie may only be 
-retrieved with a secure server. If this field is blank, no such restriction exists.
- Name=Value: Cookies are set and retrieved in the form of key-value pairs.
-Cookies were originally designed for CGI programming. The data contained in a cookie is 
-automatically transmitted between the web browser and the web server, so CGI scripts on 
-the server can read and write cookie values that are stored on the client side.
-JavaScript can also manipulate cookies using the cookie property of the Document object. 
-JavaScript can read, create, modify, and delete the cookies that apply to the current web 
-page.
-StoringCookies
-The simplest way to create a cookie is to assign a string value to the document.cookie
-object, which looks like this.
-document.cookie = "key1=value1;key2=value2;expires=date";
+
+   .. JavaScript Events The change in the state of an object is known as
+    an Event. In html, there are various events which represents that
+     some activity is performed by the user or by the browser. When
+      javascript code is included in HTML, js react over these events 
+      and allow the execution.
