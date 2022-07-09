@@ -1,28 +1,30 @@
 
- 
-     **** EVENTS ****
 
-     JavaScript is meant to add interactivity to your pages. JavaScript does this using a 
-mechanism using events. Events are a part of the Document Object Model (DOM) Level 
-3 and every HTML element contains a set of events that can trigger JavaScript Code.
-An event is an action or occurrence recognized by the software. It can be triggered by a 
-user or the system. Some common examples of events include a user clicking on a button, 
-loading the web page, clicking on a hyperlink and so on. Following are some of the common 
-HTML events. 
-Event Handlers
-On the occurrence of an event, the application executes a set of related tasks. The block 
-of code that achieves this purpose is called the eventhandler. Every HTML element has 
-a set of events associated with it. We can define how the events will be processed in 
-JavaScript by using event handlers. 
-onclick Event Type
-This is the most frequently used event type which occurs when a user clicks the left button 
-of his mouse. You can put your validation, warning, etc. against this event type.
+    ***** OBJECTS *****
+
+    ES6 - Objects. JavaScript supports extending data types. JavaScript 
+    objects are a great way to define custom data types. An object is an 
+    instance which contains a set of key value pairs. Unlike primitive data
+     types, objects can represent multiple or complex values and can change
+      over their life time.
 
 
+    **** JavaScript ES6 Objects
+
+Creating Objects. Constructor functions optionally accept parameters. ...
+Accessing Object Properties
+Changing Object Properties
+Adding Object Properties
+Deleting Object Properties
+Comparing Objects. In JavaScript, each object you create points to a different memory address.
+Cloning Objects
+ES6 Shortcuts
+Conclusion
 
 
-   .. JavaScript Events The change in the state of an object is known as
-    an Event. In html, there are various events which represents that
-     some activity is performed by the user or by the browser. When
-      javascript code is included in HTML, js react over these events 
-      and allow the execution.
+JavaScript supports extending data types. JavaScript objects are a great way to define 
+custom data types.
+An object is an instance which contains a set of key value pairs. Unlike primitive data 
+types, objects can represent multiple or complex values and can change over their life 
+time. The values can be scalar values or functions or even array of other objects.
+The syntactic variations for defining an object is discussed further.
