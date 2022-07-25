@@ -1,0 +1,11 @@
+
+   *** ES6 Refresher ***
+
+   Prettier - Code formatter 
+
+  :- It's use tp formatter the code line by line 
+
+   Use Button :- contr + shift + p
+
+
+    
