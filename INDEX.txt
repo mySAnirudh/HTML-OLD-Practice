@@ -1,23 +1,39 @@
+ 
+  
+       **** PROMISES ****
 
-     
+   >>A JavaScript Promise object contains both the producing code and calls
+    to the consuming code: When the executing code obtains the result, it
+     should call one of the two callbacks: The Promise object supports two
+      properties: state and result. While a Promise object is "pending"
+       (working), the result is undefined. 
 
-          **** PROXY API ****
 
-    ES6 implements intercession form of meta programming using Proxies. Similar to 
-ReflectAPI, the Proxy API is another way of implementing meta programming in ES6. The 
-Proxy object is used to define custom behavior for fundamental operations. A proxy object 
-performs some operations on behalf of the real object.
-The various terminologies related to ES6 proxies are given below:
-Sr No Terminology Description
-1 handler Placeholder object which contains traps
-2 traps
-The methods that provide property access. This is 
-analogous to the concept of traps in operating 
-systems
-3 target Object which the proxy virtualizes. It is often used 
-as storage backend for the proxy.
-Syntax
-The syntax stated below is for the Proxy API, where, target can be any sort of object like 
-array, function or another proxy and handler is an object whose properties are functions. 
-This defines the behavior of the proxy.
-const proxy = new Proxy(target,handler)
+
+    Promises allow you to attach callback handlers to handle the future 
+    asynchronous success value or failure reason.
+Promises are often used to handle asynchronous tasks in JavaScript.
+Before promises were introduced natively in JavaScript, we used a lot of 
+callbacks for asynchronous tasks.
+Promises executes code in order and must finish executing code before running 
+the next one.
+Promises provide catch mechanism, which callbacks do not have.
+A promise will only return a value once, which means that if a promise returns
+ an error, it will only return it once.
+A lot of developers might still think that callbacks and promises are the same,
+ but in fact, they are not.
+Promises resemble callbacks in some ways, but with an easier to follow syntax 
+and a better understanding of the code.
+Sometimes we might hear that a promise is settled. That means that this 
+promise is either fulfilled or rejected, settled is not a state but it’s
+ used just for convenience.
+
+    Promise Syntax
+The Syntax related to promise is mentioned below where, p is the promise 
+object, resolve is the function that should be called when the promise 
+executes 
+successfully and reject is the function that should be called when the
+ promise encounters 
+an error.
+
+  
