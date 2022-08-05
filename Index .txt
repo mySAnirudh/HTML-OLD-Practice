@@ -1,16 +1,18 @@
 
 
-    *** OUTLINE ***
+   ***** Margin *****
 
- Outlines are very similar to borders, but there are few major differences as well: 
- An outline does not take up space.
- Outlines do not have to be rectangular.
- Outline is always the same on all sides; you cannot specify different 
-values for different sides of an element.
-NOTE: The outline properties are not supported by IE 6 or Netscape 7.
-You can set the following outline properties using CSS.
- The outline-width property is used to set the width of the outline.
- The outline-style property is used to set the line style for the outline.
- The outline-color property is used to set the color of the outline.
- The outline property is used to set all the above three properties in a 
-single statement.
+  The margin property defines the space around an HTML element. It is possible to 
+use negative values to overlap content.
+The values of the margin property are not inherited by the child elements. 
+Remember that the adjacent vertical margins (top and bottom margins) will 
+collapse into each other so that the distance between the blocks is not the sum 
+of the margins, but only the greater of the two margins or the same size as one 
+margin if both are equal.
+We have the following properties to set an element margin.
+ The margin specifies a shorthand property for setting the margin 
+properties in one declaration.
+ The margin-bottom specifies the bottom margin of an element.
+ The margin-top specifies the top margin of an element.
+ The margin-left specifies the left margin of an element.
+ The margin-right specifies the right margin of an element.
