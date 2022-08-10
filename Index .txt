@@ -1,17 +1,16 @@
 
-   **** PSEUDO ELEMENT ****
 
-   CSS pseudo-elements are used to add special effects to some selectors. You do 
-not need to use JavaScript or any other script to use those effects. A simple 
-syntax of pseudo-element is as follows:
-selector:pseudo-element {property: value}
-CSS classes can also be used with the pseudo-elements:
-selector.class:pseudo-element {property: value}
-The most commonly used pseudo-elements are as follows:
-Value Description
-:first-line Use this element to add special styles to the first line of the text 
-in a selector.
-:first-letter Use this element to add special style to the first letter of the text 
-in a selector.
-:before Use this element to insert some content before an element.
-:after Use this element to insert some content after an element.
+    *** OUTLINE ***
+
+ Outlines are very similar to borders, but there are few major differences as well: 
+ An outline does not take up space.
+ Outlines do not have to be rectangular.
+ Outline is always the same on all sides; you cannot specify different 
+values for different sides of an element.
+NOTE: The outline properties are not supported by IE 6 or Netscape 7.
+You can set the following outline properties using CSS.
+ The outline-width property is used to set the width of the outline.
+ The outline-style property is used to set the line style for the outline.
+ The outline-color property is used to set the color of the outline.
+ The outline property is used to set all the above three properties in a 
+single statement.
