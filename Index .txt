@@ -1,41 +1,17 @@
 
+   **** PSEUDO ELEMENT ****
 
-    *** Courser ***
-
- The cursor property of CSS allows you to specify the type of cursor that should 
-be displayed to the user.
-One good usage of this property is in using images for submit buttons on forms. 
-By default, when a cursor hovers over a link, the cursor changes from a pointer 
-to a hand. However, it does not change form for a submit button on a form. 
-Therefore, whenever someone hovers over an image that is a submit button, it 
-provides a visual clue that the image is clickable. 
-The following table shows the possible values for the cursor property:
+   CSS pseudo-elements are used to add special effects to some selectors. You do 
+not need to use JavaScript or any other script to use those effects. A simple 
+syntax of pseudo-element is as follows:
+selector:pseudo-element {property: value}
+CSS classes can also be used with the pseudo-elements:
+selector.class:pseudo-element {property: value}
+The most commonly used pseudo-elements are as follows:
 Value Description
-auto Shape of the cursor depends on the context area it is over. For 
-example, an ‘I’ over text, a ‘hand’ over a link, and so on.
-crosshair A crosshair or plus sign.
-default An arrow.
-pointer A pointing hand (in IE 4 this value is hand).
-move The ‘I’ bar.
-e-resize The cursor indicates that an edge of a box is to be moved right 
-(east).
-ne-resize The cursor indicates that an edge of a box is to be moved up and 
-right (north/east).
-nwresize
-The cursor indicates that an edge of a box is to be moved up and 
-left (north/west).
-n-resize The cursor indicates that an edge of a box is to be moved up 
-(north).
-se-resize The cursor indicates that an edge of a box is to be moved down 
-and right (south/east).
-swresize
-The cursor indicates that an edge of a box is to be moved down 
-and left (south/west).
-s-resize The cursor indicates that an edge of a box is to be moved down 
-(south).
-w-resize The cursor indicates that an edge of a box is to be moved left 
-(west).
-text The I bar.
-wait An hour glass.
-help A question mark or balloon, ideal for use over help buttons.
-<url> The source of a cursor image file.
+:first-line Use this element to add special styles to the first line of the text 
+in a selector.
+:first-letter Use this element to add special style to the first letter of the text 
+in a selector.
+:before Use this element to insert some content before an element.
+:after Use this element to insert some content after an element.
