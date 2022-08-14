@@ -1,16 +1,15 @@
 
-
-    *** OUTLINE ***
-
- Outlines are very similar to borders, but there are few major differences as well: 
- An outline does not take up space.
- Outlines do not have to be rectangular.
- Outline is always the same on all sides; you cannot specify different 
-values for different sides of an element.
-NOTE: The outline properties are not supported by IE 6 or Netscape 7.
-You can set the following outline properties using CSS.
- The outline-width property is used to set the width of the outline.
- The outline-style property is used to set the line style for the outline.
- The outline-color property is used to set the color of the outline.
- The outline property is used to set all the above three properties in a 
-single statement.
+ 
+    *** Dimension ***
+You have seen the border that surrounds every box i.e. element, the padding 
+that can appear inside each box, and the margin that can go around them. In 
+this chapter, we will learn how to change the dimensions of boxes.
+We have the following properties that allow you to control the dimensions of a 
+box.
+ The height property is used to set the height of a box.
+ The width property is used to set the width of a box.
+ The line-height property is used to set the height of a line of text.
+ The max-height property is used to set a maximum height that a box can be.
+ The min-height property is used to set the minimum height that a box can be.
+ The max-width property is used to set the maximum width that a box can be.
+ The min-width property is used to set the minimum width that a box can be.
