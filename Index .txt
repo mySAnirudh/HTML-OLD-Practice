@@ -1,41 +1,16 @@
 
 
-    *** Courser ***
+    *** OUTLINE ***
 
- The cursor property of CSS allows you to specify the type of cursor that should 
-be displayed to the user.
-One good usage of this property is in using images for submit buttons on forms. 
-By default, when a cursor hovers over a link, the cursor changes from a pointer 
-to a hand. However, it does not change form for a submit button on a form. 
-Therefore, whenever someone hovers over an image that is a submit button, it 
-provides a visual clue that the image is clickable. 
-The following table shows the possible values for the cursor property:
-Value Description
-auto Shape of the cursor depends on the context area it is over. For 
-example, an ‘I’ over text, a ‘hand’ over a link, and so on.
-crosshair A crosshair or plus sign.
-default An arrow.
-pointer A pointing hand (in IE 4 this value is hand).
-move The ‘I’ bar.
-e-resize The cursor indicates that an edge of a box is to be moved right 
-(east).
-ne-resize The cursor indicates that an edge of a box is to be moved up and 
-right (north/east).
-nwresize
-The cursor indicates that an edge of a box is to be moved up and 
-left (north/west).
-n-resize The cursor indicates that an edge of a box is to be moved up 
-(north).
-se-resize The cursor indicates that an edge of a box is to be moved down 
-and right (south/east).
-swresize
-The cursor indicates that an edge of a box is to be moved down 
-and left (south/west).
-s-resize The cursor indicates that an edge of a box is to be moved down 
-(south).
-w-resize The cursor indicates that an edge of a box is to be moved left 
-(west).
-text The I bar.
-wait An hour glass.
-help A question mark or balloon, ideal for use over help buttons.
-<url> The source of a cursor image file.
+ Outlines are very similar to borders, but there are few major differences as well: 
+ An outline does not take up space.
+ Outlines do not have to be rectangular.
+ Outline is always the same on all sides; you cannot specify different 
+values for different sides of an element.
+NOTE: The outline properties are not supported by IE 6 or Netscape 7.
+You can set the following outline properties using CSS.
+ The outline-width property is used to set the width of the outline.
+ The outline-style property is used to set the line style for the outline.
+ The outline-color property is used to set the color of the outline.
+ The outline property is used to set all the above three properties in a 
+single statement.
