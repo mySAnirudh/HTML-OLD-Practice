@@ -1,34 +1,30 @@
 
- 
-     **** STRING ****
 
-  >> String in JS :- JavaScript strings are used for storing and manipulating 
-  text. A JavaScript string is zero or more characters written inside quotes.
-   You can use quotes inside a string, as long as they don't match the quotes 
-   surrounding the string: To find the length of a string, use the built-in 
-   length property
+       **** ANIMATION ****
 
-    The String object lets you work with a series of characters; it wraps JavaScript’s string 
-primitive data type with a number of helper methods.
-As JavaScript automatically converts between string primitives and String objects, you can 
-call any of the helper methods of the String object on a string primitive.
-Use the following syntax to create a String object.
-var val = new String(string);
-The string parameter is a series of characters that has been properly encoded.
-String Properties
-Following is a list of the properties of String object and its description. 
-Property Description
-constructor Returns a reference to the String function that created the object
-length Returns the length of the string
-prototype The prototype property allows you to add properties and methods 
-to an object
-Constructor
-A constructor returns a reference to the string function that created the instance's 
-prototype.
-Syntax
-string.constructor
-Return Value
-Returns the function that created this object’s instance. 
-Example: String constructor property
-var str = new String( "This is string" );
-console.log("str.constructor is:" + str.constructor)
+    You can use JavaScript to create a complex animation having, but not limited to, the 
+following elements: 
+ Fireworks 
+ Fade effect 
+ Roll-in or Roll-out 
+ Page-in or Page-out 
+ Object movements 
+In this chapter, we will see how to use JavaScript to create an animation. 
+JavaScript can be used to move a number of DOM elements (<img />, <div>, or any other 
+HTML element) around the page according to some sort of pattern determined by a logical 
+equation or function. 
+JavaScript provides the following functions to be frequently used in animation programs. 
+ setTimeout (function, duration) - This function calls the function after duration 
+milliseconds from now. 
+ setInterval (function, duration) - This function calls the function after every 
+duration milliseconds.
+ clearTimeout (setTimeout_variable) - This function clears any timer set by the 
+setTimeout() function. 
+JavaScript can also set a number of attributes of a DOM object including its position on 
+the screen. You can set the top and the left attribute of an object to position it anywhere 
+on the screen. Following is the syntax for the same.
+// Set distance from left edge of the screen. 
+object.style.left = distance in pixels or points; 
+or
+// Set distance from top edge of the screen. 
+object.style.top = distance in pixels or points;
