@@ -1,30 +1,34 @@
+ 
+
+     **** FUNCTION ****
+
+     Functions are the building blocks of readable, maintainable, and reusable code. Functions 
+are defined using the function keyword. Following is the syntax for defining a standard 
+function.
+function function_name()
+{
+// function body
+}
+To force execution of the function, it must be called. This is called as function invocation. 
+Following is the syntax to invoke a function.
+function_name()
+Example: Simple function definition
+//define a function
+function test()
+{
+ console.log("function called")
+}
+//call the function
+test()
+The example defines a function test(). A pair of delimiters ( { } ) define the function body. 
+It is also called as the function scope. A function must be invoked to force its execution. 
+The following output is displayed on successful execution of the above code.
+function called
 
 
-       **** ANIMATION ****
 
-    You can use JavaScript to create a complex animation having, but not limited to, the 
-following elements: 
- Fireworks 
- Fade effect 
- Roll-in or Roll-out 
- Page-in or Page-out 
- Object movements 
-In this chapter, we will see how to use JavaScript to create an animation. 
-JavaScript can be used to move a number of DOM elements (<img />, <div>, or any other 
-HTML element) around the page according to some sort of pattern determined by a logical 
-equation or function. 
-JavaScript provides the following functions to be frequently used in animation programs. 
- setTimeout (function, duration) - This function calls the function after duration 
-milliseconds from now. 
- setInterval (function, duration) - This function calls the function after every 
-duration milliseconds.
- clearTimeout (setTimeout_variable) - This function clears any timer set by the 
-setTimeout() function. 
-JavaScript can also set a number of attributes of a DOM object including its position on 
-the screen. You can set the top and the left attribute of an object to position it anywhere 
-on the screen. Following is the syntax for the same.
-// Set distance from left edge of the screen. 
-object.style.left = distance in pixels or points; 
-or
-// Set distance from top edge of the screen. 
-object.style.top = distance in pixels or points;
+
+Lambda Expression
+It is an anonymous function expression that points to a single line of code. Following is 
+the syntax for the same.
+( [param1, parma2,…param n] )=>statement;
