@@ -1,0 +1,25 @@
+
+
+ 
+     **** BOOLEAN ****
+
+     The Boolean object represents two values, either "true" or "false". If the value parameter 
+is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has 
+an initial value of false.
+Use the following syntax to create a boolean object. 
+var val = new Boolean(value);
+Boolean Properties
+Following is a list of the properties of Boolean object.
+Property Description
+constructor Returns a reference to the Boolean function that created the 
+object. 
+prototype The prototype property allows you to add properties and methods 
+to an object. 
+In the following sections, we will look at a few examples to illustrate the properties of 
+Boolean object. 
+constructor ()
+Javascript Boolean constructor() method returns a reference to the Boolean function that 
+created the instance's prototype.
+Use the following syntax to create a Boolean constructor() method. It returns the function 
+that created this object's instance.
+boolean.constructor()
