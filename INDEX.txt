@@ -1,28 +1,31 @@
 
- 
-    **** NUMBER ****
+   
+     **** DATE  *****
 
-    The Number object represents numerical date, either integers or floating-point numbers. 
-In general, you do not need to worry about Number objects because the browser 
-automatically converts number literals to instances of the number class.
-Following is the syntax for creating a number object.
-var val = new Number(number);
-In the place of number, if you provide any non-number argument, then the argument 
-cannot be converted into a number, it returns NaN (Not-a-Number). 
-Number Properties
+     The Date object is a datatype built into the JavaScript language. Date objects are created 
+with the new Date () as shown in the following syntax.
+Once a Date object is created, a number of methods allow you to operate on it. Most 
+methods simply allow you to get and set the year, month, day, hour, minute, second, and 
+millisecond fields of the object, using either local time or UTC (universal, or GMT) time. 
+The ECMAScript standard requires the Date object to be able to represent any date and 
+time, to millisecond precision, within 100 million days before or after 1/1/1970. This is a 
+range of plus or minus 273,785 years, so JavaScript can represent date and time till the 
+year 275755. 
+You can use any of the following syntax to create a Date object using Date () 
+constructor. 
+new Date( )
+new Date(milliseconds)
+new Date(datestring)
+new Date(year,month,date[,hour,minute,second,millisecond ])
+Note: Parameters in the brackets are always optional.
+Date Properties
+Here is a list of the properties of the Date object along with their description.
 Property Description
-Number.EPSILON The smallest interval between two representable 
-numbers
-Number.MAX_SAFE_INTEGER The maximum safe integer in JavaScript (2^53 - 1)
-Number.MAX_VALUE The largest positive representable number
-Number.MIN_SAFE_INTEGER The minimum safe integer in JavaScript (-(2^53 - 1))
-Number.MIN_VALUE
-The smallest positive representable number - that is, 
-the positive number closest to zero (without actually 
-being zero)
-Number.NaN Special "not a number" value
-Number.NEGATIVE_INFINITY Special value representing negative infinity; returned 
-on overflow
-Number.POSITIVE_INFINITY Special value representing infinity; returned on 
-overflow
-Number.prototype Allows the addition of properties to a Number object
+constructor Specifies the function that creates an object's prototype
+prototype The prototype property allows you to add properties and methods to an 
+object
+Constructor
+Javascript date constructor property returns a reference to the array function that created 
+the instance's prototype.
+Syntax
+date.constructor    
