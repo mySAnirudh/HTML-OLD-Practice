@@ -1,0 +1,40 @@
+
+      *** Loop Control ***
+
+
+
+JavaScript provides full control to handle loops and switch statements. There 
+may be a situation when you need to come out of a loop without reaching at its 
+bottom. There may also be a situation when you want to skip a part of your code 
+block and start the next iteration of the look.
+To handle all such situations, JavaScript provides break and continue
+statements. These statements are used to immediately come out of any loop or 
+to start the next iteration of any loop respectively.
+The break Statement
+The break statement, which was briefly introduced with the switch statement, is 
+used to exit a loop early, breaking out of the enclosing curly braces.
+
+
+  The continueStatement
+The continue statement tells the interpreter to immediately start the next 
+iteration of the loop and skip the remaining code block. When 
+a continue statement is encountered, the program flow moves to the loop 
+check expression immediately and if the condition remains true, then it starts
+the next iteration, otherwise the control comes out of the loop.
+Example
+This example illustrates the use of a continue statement with a while loop. 
+Notice how the continue statement is used to skip printing when the index held 
+in variable x reaches 5.
+
+
+Using Labels to Control the Flow
+
+Starting from JavaScript 1.2, a label can be used with break and continue to 
+control the flow more precisely. A label is simply an identifier followed by a 
+colon (:) that is applied to a statement or a block of code. We will see two 
+different examples to understand how to use labels with break and continue.
+Note: Line breaks are not allowed between the ‘continue’ or ‘break’ statement 
+and its label name. Also, there should not be any other statement in between a 
+label name and associated loop.
+Try the following two examples for a better understanding of Labels.
+
